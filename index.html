@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="UTF-8"></meta>
+	<title>Home</title>
+</head>
+<body>
+
+	<div id="contenedor">
+		<header>
+			<div id="logo">
+				<a href="/"><img src="images/logo.png" alt="Logo"></a>
+			</div>
+		
+		</header>
+		<nav>
+			<ul>
+				<li><a href="#">Incio</a></li>
+				<li><a href="#">Nosotros</a></li>
+				<li><a href="#">Servicios</a></li>
+				<li><a href="#">Cotización</a></li>
+				<li><a href="#">Contácto</a></li>
+			</ul>
+		</nav>
+		
+		<!--<section id="contenido-noticias">
+  			<section class="noticia">
+  				<aside>
+  					<h1>Noticia</h1>
+  					<h2>Subtitle</h2>
+  					<p>Contenido</p>
+  					<h3>Subtitle</h3>
+  				</aside>	
+  				<article>Articulo 1</article>
+  			</section>
+
+		</section>-->
+		<section class="contenedor-principal">
+			<article>
+				<h1>Titulo H1</h1>
+				<input type="text" id="add" placeholder="Escriba su tarea">
+				<hr>
+				<ul id="tarea">
+				</ul>
+			</article>
+		</section>
+		<section class="contenedor-galeria">
+			<div id="galeria" class="galeia">
+				
+			</div>
+		</section>
+	</div>
+	<footer>Pie de pagina</footer>
+<!--
+<canvas id="lienzo" width="500px" height="400px"></canvas>
+<script type="text/javascript">
+	$(document).ready(inicio);
+	function inicio(){
+		
+	}
+	var canvas=document.getElementById("lienzo");
+</script>-->
+
+<script>
+//Ejecutar funciones de forma indirecta
+
+let date=new Date();
+date.getFullYear();
+date.getMinutes();
+date.getHours();
+date.getDate();
+date.getMonth();
+
+function day(){
+
+}
+
+let fecha=date.getDate()+" de "+ date.getFullYear()+",05:"+date.getMinutes();
+console.log(fecha);
+
+
+
+//ejemplo en json
+var variable;
+variable=[
+{
+	"nombre":"juan",
+	"apellido":"martinez"
+},
+{
+	"nombre":"juan2",
+	"apellido":"martinez2"
+}
+
+];
+document.getElementById("tarea").innerHTML=variable[1].apellido;
+</script>
+
+</body>
+</html>
