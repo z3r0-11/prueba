@@ -39,16 +39,15 @@
 		<section class="contenedor-principal">
 			<article>
 				<h1>Titulo H1</h1>
-				<input type="text" id="add" placeholder="Escriba su tarea">
-				<hr>
-				<ul id="tarea">
-				</ul>
+				
+			<div id="galeria" class="galeia">
+				<div class="box">Caja 1</div>
+				<div class="box">Caja 2</div>
+				<div class="box">Caja 3</div>
+			</div>
 			</article>
 		</section>
 		<section class="contenedor-galeria">
-			<div id="galeria" class="galeia">
-				
-			</div>
 		</section>
 	</div>
 	<footer>Pie de pagina</footer>
@@ -65,36 +64,6 @@
 <script>
 //Ejecutar funciones de forma indirecta
 
-let date=new Date();
-date.getFullYear();
-date.getMinutes();
-date.getHours();
-date.getDate();
-date.getMonth();
-
-function day(){
-
-}
-
-let fecha=date.getDate()+" de "+ date.getFullYear()+",05:"+date.getMinutes();
-console.log(fecha);
-
-
-
-//ejemplo en json
-var variable;
-variable=[
-{
-	"nombre":"juan",
-	"apellido":"martinez"
-},
-{
-	"nombre":"juan2",
-	"apellido":"martinez2"
-}
-
-];
-document.getElementById("tarea").innerHTML=variable[1].apellido;
 </script>
 
 </body>

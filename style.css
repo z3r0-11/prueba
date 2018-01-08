@@ -67,3 +67,16 @@ nav{
 		border-top: none;
 		border-radius: 0 0 5px 5px;
 	}
+
+#galeria{
+	background: grey;
+	display: flex;
+	flex-direction:row;
+}
+	.box{
+		width: 100px;
+		height: 100px;
+		background: green;
+		border: 1px solid;
+		margin: 20px;
+	}
